@@ -1,10 +1,25 @@
 #  Audio Emotion Classification with ResNet50 and Diffusion Models
 
+**Research Context**
 
+This project is inspired by and aims to reproduce key aspects of:
 
-> **State-of-the-art speech emotion recognition using deep learning and synthetic data augmentation**
+**"A Generation of Enhanced Data by Variational Autoencoders and Diffusion Modeling"**
+- *Authors*: Young-Jun Kim and Seok-Pil Lee
+- *Journal*: Electronics 2024, 13(7), 1314
+- *DOI*: [https://doi.org/10.3390/electronics13071314](https://doi.org/10.3390/electronics13071314)
 
-This project implements emotion classification from audio using ResNet50 on mel-spectrograms, enhanced with synthetic data generation via diffusion models. Achieves **84% accuracy** on combined EmoDB and RAVDESS datasets.
+**Key concepts reproduced from the paper:**
+-  Use of diffusion models for emotional speech data augmentation
+-  Mel-spectrogram representation of audio
+-  ResNet-based emotion recognition
+-  EmoDB and RAVDESS datasets
+
+**Differences from the original paper:**
+-  Simplified diffusion architecture (Compact U-Net vs full architecture)
+-  Fewer training epochs (50 vs 800)
+-  Focus on practical implementation for limited resources
+
 
 ---
 
