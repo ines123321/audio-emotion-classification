@@ -40,7 +40,7 @@ Generate synthetic mel-spectrograms using diffusion models conditioned on emotio
 
 ---
 
-## 📊 Results
+##  Results
 
 | Approach | Dataset Size | Val Acc | Improvement |
 |----------|--------------|---------|-------------|
@@ -49,9 +49,9 @@ Generate synthetic mel-spectrograms using diffusion models conditioned on emotio
 | **Diffusion Augmentation** | 3,910 | 84% | **+5%** |
 
 ### Key Findings
-✅ **Synthetic data improves generalization** by 5%  
-✅ **Reduced overfitting**gap  
-⚠️ **Limitation**: Generated samples remain similar to originals, limiting diversity gains
+ **Synthetic data improves generalization** by 5%  
+ **Reduced overfitting**gap  
+ **Limitation**: Generated samples remain similar to originals, limiting diversity gains
 
 ---
 
@@ -119,7 +119,7 @@ audio-emotion-classification/
 
 ---
 
-## 🛠️ Installation
+##  Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -149,11 +149,14 @@ pip install -r requirements.txt
 
 ---
 
-## 📂 Datasets
+##  Datasets
 
 ### EmoDB (Berlin Database of Emotional Speech)
 
-**Source**: [http://emodb.bilderbar.info/](http://emodb.bilderbar.info/)
+- **Kaggle Dataset:** [https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb)
+- **Official Source:** [http://emodb.bilderbar.info/](http://emodb.bilderbar.info/)
+
+
 
 **Description**: German emotional speech database with 535 utterances from 10 actors (5 male, 5 female).
 
@@ -174,7 +177,8 @@ pip install -r requirements.txt
 
 ### RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song)
 
-**Source**: [https://zenodo.org/record/1188976](https://zenodo.org/record/1188976)
+- **Kaggle Dataset:** [https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)
+- **Official Source (Zenodo):** [https://zenodo.org/record/1188976](https://zenodo.org/record/1188976)
 
 **Description**: English emotional speech and song database with 1,440 audio files from 24 actors (12 male, 12 female).
 
