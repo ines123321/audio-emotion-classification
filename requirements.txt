@@ -1,0 +1,11 @@
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+librosa==0.11.0
+torch==2.9.0+cu126
+torchvision==0.24.0+cu126
+torchaudio==2.9.0+cu126
+scikit-learn
+seaborn==0.13.2
+Pillow==11.3.0
+tqdm

@@ -1,0 +1,12 @@
+# .gitignore 
+data/emodb/
+data/ravdess/
+cache/
+models/
+configs/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+*.pth
+*.pkl
+*.npy
